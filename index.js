@@ -33,3 +33,7 @@ function decrement(n){
 function makeInt(int){
   return parseInt(int, 10)
 }
+
+function preserveDecimal(n){
+  return parseFloat(n)
+}
